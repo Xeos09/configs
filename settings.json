@@ -1,0 +1,102 @@
+{
+    "remote.SSH.remotePlatform": {
+        "derdek.pl": "linux"
+    },
+    "editor.fontLigatures": true,
+    "window.menuBarVisibility": "toggle",
+    "window.density.editorTabHeight": "compact",
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "continue.enableTabAutocomplete": false,
+    "editor.lineNumbers": "relative",
+    "editor.smoothScrolling": true,
+    "editor.minimap.enabled": false,
+    "editor.lineHeight": 1.4,
+    "workbench.sideBar.location": "right",
+    "telemetry.telemetryLevel": "off",
+    "vim.leader": "<Space>",
+    "vim.easymotion": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "k"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "vim.normalModeKeyBindings": [
+        {
+            "before": [
+                "<leader>",
+                "s",
+                "v"
+            ],
+            "commands": [
+                "workbench.action.splitEditor"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "s",
+                "h"
+            ],
+            "commands": [
+                "workbench.action.splitEditorDown"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "q"
+            ],
+            "commands": [
+                "workbench.action.closeActiveEditor"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "f",
+                "f"
+            ],
+            "commands": [
+                "workbench.action.quickOpen"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "f",
+                "s"
+            ],
+            "commands": [
+                "workbench.action.findInFiles"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "f",
+                "m"
+            ],
+            "commands": [
+                "editor.action.format"
+            ]
+        },
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "leader",
+                "n",
+                "e"
+            ],
+            "commands": [
+                "workbench.explorer.fileView.focus"
+            ]
+        },
+    ]
+}
