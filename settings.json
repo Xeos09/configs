@@ -1,7 +1,4 @@
 {
-    "remote.SSH.remotePlatform": {
-        "derdek.pl": "linux"
-    },
     "editor.fontLigatures": true,
     "window.menuBarVisibility": "toggle",
     "window.density.editorTabHeight": "compact",
